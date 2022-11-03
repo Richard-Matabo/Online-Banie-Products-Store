@@ -1,0 +1,857 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.nav-header{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 10px;
+}
+.logo{
+  display: flex;
+  text-align: left;
+  color: black;
+}
+.logo > h1{
+  margin-left: 100px;
+}
+.links li{
+  float: left;
+  padding: 10px;
+  list-style: none;
+  margin-right: 50px;
+}
+.nav-header li a{
+ color: rgb(119, 117, 117);
+ text-decoration: none; 
+}
+nav li a:hover{
+ color: tomato;
+}
+.banner{
+  height: 800px;
+  background-color: lavender;
+}
+.image-chair{
+  position: absolute;
+  margin-left: 10%;
+  padding-top: 10%;
+}
+.text{
+ position: absolute;
+ width: 30%;
+ margin-left: 60%;
+ margin-top: 23%;
+}
+.text > h1{
+  font-weight: bold;
+}
+.button{
+  margin-top: 13%;
+  background-color: black;
+  border-radius: 3px;
+  font-size: 12px;
+    padding: 8px;
+  width: 150px;
+  text-align: center;
+  color: white;
+}
+.button:hover{
+  opacity: 0.5;
+}
+.article{
+  max-width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+.items-top{
+  display: inline-flex;
+  margin-top: 1em;
+}
+.sofa > img{
+  width: 500px;
+  padding-right: 15px;
+}
+.sofa > p{
+  position: relative;
+  text-align: center;
+  left: 8px;
+  bottom: 40px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 120px;
+  text-decoration: none;
+  color: black;
+}
+.sofa > p:hover{
+  background-color: black;
+  color: white;
+}
+.lamp > img{
+  width: 280px;
+  padding-right: 15px;
+}
+.lamp > p{
+  position: relative;
+  text-align: center;
+  left: 8px;
+  bottom: 40px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 120px;
+  text-decoration: none;
+  color: black;
+}
+.lamp > p:hover{
+  background-color: black;
+  color: white;
+}
+.chair > img{
+  width: 280px;
+  padding-right: 15px;
+}
+.chair > p{
+  position: relative;
+  text-align: center;
+  left: 8px;
+  bottom: 40px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 120px;
+  text-decoration: none;
+  color: black;
+}
+.chair > p:hover{
+  background-color: black;
+  color: white;
+}
+.items-second{
+  position: relative;
+  bottom: 35px;
+  display: inline-flex;
+}
+.office > img{
+  width: 400px;
+  padding-right: 15px;
+}
+.office > p{
+  position: relative;
+  text-align: center;
+  left: 8px;
+  bottom: 40px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 120px;
+  text-decoration: none;
+  color: black;
+}
+.office > p:hover{
+  background-color: black;
+  color: white;
+}
+.bedroom > img{
+  width: 660px;
+  padding-right: 15px;
+}
+.bedroom > p{
+  position: relative;
+  text-align: center;
+  left: 8px;
+  bottom: 40px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: white;
+  width: 120px;
+  text-decoration: none;
+  color: black;
+}
+.bedroom > p:hover{
+  background-color: black;
+  color: white;
+}
+.product h5{
+  text-align: center;
+  font-weight: 500;
+  padding: 2.5em;
+}
+.testimony{
+  margin-top: 15%;
+  text-align: center;
+  padding: 2.5em;
+  color: black;
+}
+.Baenie > img{
+  width: 100%;
+}
+.del {
+  position: relative;
+  width: 100%;
+}
+.image-baenie-chair {
+  display: block;
+  width: 100%;
+  height: auto; 
+}
+/*---------baenie-chair----*/
+.overlay-baenie-chair {
+  position: absolute; 
+  top: 410px; 
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-chair > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-chair {
+  color: white;
+  opacity: 1;
+}
+/*-------------baenie-lamp------*/
+.image-baenie-lamp {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-lamp {
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-lamp > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-lamp{
+  color: white;
+  opacity: 1;
+}
+/*------------baenie-pot--------*/
+.image-baenie-pot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-pot {
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-pot > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-pot{
+  color: white;
+  opacity: 1;
+}
+/*--------baenie-garden--------*/
+.image-baenie-garden{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-garden{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-garden > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-garden{
+  color: white;
+  opacity: 1;
+}.image-baenie-pot {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-garden{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-garden > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-garden{
+  color: white;
+  opacity: 1;
+}
+/*--------baenie-cap--------*/
+.image-baenie-cap{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-cap{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-cap > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-cap{
+  color: white;
+  opacity: 1;
+}.image-baenie-cap {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-cap{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-cap > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-cap{
+  color: white;
+  opacity: 1;
+}
+/*--------baenie-hoodie--------*/
+.image-baenie-tissus{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-tissus{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-tissus > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-tissus{
+  color: white;
+  opacity: 1;
+}.image-baenie-tissus{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay-baenie-tissus{
+  position: absolute; 
+  top: 410px;
+  background: rgb(231, 77, 77);
+  width: 40%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 70px;
+  padding: 8px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.overlay-baenie-tissus > a{
+  color: white;
+  text-decoration: none;
+}
+.del:hover .overlay-baenie-tissus{
+  color: white;
+  opacity: 1;
+}
+.Baenie{
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-gap: 1em;
+  width: 100%;
+  margin-top: 1em;
+  justify-content: center;
+  text-align: center;
+  margin-bottom: 10%;
+  color: #555;
+}
+.del{
+  padding: 2em;
+}
+.del > span{
+  font-weight: bold;
+  color: #555;
+}
+del{
+  font-weight: 600;
+  color: silver;
+}
+.sale{
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding: 1px;
+  font-size: 14px;
+  text-align: center;
+  width: 70px;
+  position: relative;
+  left: 250px;
+}
+.layout{
+  display: grid;
+  grid-template-columns: 460px 429px 460px;
+  width: 100%;
+}
+.image-bedroom{
+  height: 700px;
+}
+.back-text{
+  background-color: lightblue;
+  height: 700px;
+  padding: 9em;
+}
+.second-back-text{
+  background-color: black;
+  color: white;
+  height: 700px;
+  padding: 9em;
+}
+.button-text{
+  margin-top: 50px;
+  background-color: black;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 8px;
+  width: 150px;
+  text-align: center;
+  color: white;
+}
+.button-text:hover{
+  opacity: 0.5;
+}
+.carousel .carousel-item {
+	color: rgb(95, 93, 93);
+	text-align: center;
+	min-height: 220px;
+
+}
+.overview {
+  font-size: 18px;
+}
+.overview > small{
+  font-size: 12px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 8px;
+	height: 8px;
+	margin: 1px 3px;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+.carousel-indicators li {	
+	background-color: black;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.container{
+  display: grid;
+  grid-template-columns: 600px 600px;
+  background-color: rgb(252, 245, 245);
+  margin-top: 8%;
+  width: 100%;
+  min-height: 500px;
+  justify-content: center;
+}
+.blog{
+  text-align: center;
+  background-color: lavender;
+  padding: 6em;
+}
+.blog > h1{
+  font-weight: bold;
+  padding: 1em;
+  color: black;
+  text-align: center;
+}
+.blog > p{
+  color: rgb(95, 93, 93);
+}
+.read{
+  margin-top: 60px;
+  font-size: 12px;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+.read:hover{
+  opacity: 0.5;
+}
+.read > a{
+  background-color: black;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  width: 150px;
+}
+.read > a:hover{
+  color: white;
+}
+.last{
+  display: grid;
+  width: 100%;
+  justify-content: center;
+}
+.white-space{
+  width: 100%;
+  display: inline-flex;
+  padding: 7em;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.delivery > p, 
+.day-return > p,
+.exclusive > p,
+.visa > p{
+  font-weight: bold;
+  padding-top: 15px;
+}
+.delivery > span,
+.day-return > span,
+.exclusive > span,
+.visa > span{
+  color: silver;
+}
+.infos{
+  display: inline-block;
+  padding: 1em;
+  margin-left: 2%;
+  color: white;
+}
+.infos > ul{
+  color: rgb(109, 108, 108);
+  list-style-type: none;
+}
+.last_news{
+  float: left;
+  color: rgb(161, 160, 160);
+  width: 13%;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+.infos ul{
+  list-style-type: none;
+}
+.infos ul li{
+  padding: 2px;
+}
+.infos ul a{
+  color: rgb(109, 108, 108);
+  text-transform: none;
+}
+.infos a:hover{
+  color: none;
+  text-decoration: none;
+}
+.last-para{
+  padding: 15px;
+  text-align: center;
+  color: rgb(109, 108, 108);
+}
+.last-para a{
+  text-decoration: none;
+  color: rgb(109, 108, 108);
+}
+#details{
+  padding-bottom: 1em;
+  color: rgb(209, 209, 209);
+  font-size: 23px;
+  font-weight: bold;
+}
+.details{
+  background-color: rgb(48, 47, 47);
+  padding: 6em;
+}
+footer{
+  background-color: rgb(19, 18, 18);
+}
+
+/* ================ My Account Page =============== */
+.wrapper{
+  background-color: lavender;
+  padding: 5em;
+  height: 1000px;
+}
+.bs-example{
+      background-color: silver;    
+      padding: 3em;
+      border-radius: 5px;
+      width: 70%;
+      margin-left: 20%;     
+}
+.subscribe{
+  margin-top: 10%;
+  width: 70%;
+  margin-left: 20%;  
+  padding-bottom: 4em;
+}
+.subscribe > h6{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* ========================= Shop Pge ================ */
+.nav-bottom{
+  margin-left: 8%;
+  margin-top: 10%;
+  margin-bottom: 3%;
+}
+.nav-bottom-end{
+  margin-left: 8%;
+  margin-top: 20%;
+  margin-bottom: 0%;
+}
+.list-inline, .inlined-list{
+  display: flex;
+}
+.list-inline li a{
+  list-style: none;
+  font-size: 13px;
+  color: rgb(119, 117, 117);
+  font-weight: bold;
+  text-align: left;
+}
+.inlined-list li{
+  list-style: none;
+
+}
+.inlined-list a{
+  text-decoration: none;
+  font-size: 13px;
+  color: rgb(119, 117, 117);
+  font-weight: bold;
+  text-align: left;
+  padding: 5px;
+}
+.inlined-list a:hover{
+  color: rgb(119, 117, 117);
+}
+.active-nav{
+  font-weight: bold;
+  border-bottom: 2px solid rgb(61, 60, 60);
+  color: black;
+}
+.list-inline li a:hover{
+  color: rgb(119, 117, 117);
+  }
+.nav-bottom li a{
+ text-decoration: none; 
+ padding: 5px;
+}
+.nav-bottom-end > p{
+  padding: 5px;
+  color: rgb(119, 117, 117);
+}
+.view-card{
+  width: 85%;
+  justify-content: center;
+  margin-left: 8%;
+}
+.article h5{
+  position: relative;
+  left: -23px;
+}
+.stand-lamp{
+  margin-left: 8%;
+  float: left;
+}
+.stand-sale{
+  background-color: rgb(44, 43, 43);
+  color: white;
+  padding: 1px;
+  font-size: 14px;
+  text-align: center;
+  width: 70px;
+  position: relative;
+  left: 0px;
+}
+.side-baenie{
+ margin-left: 53%;
+}
+.side-baenie h5, h3{
+  font-weight: bold;
+}
+.side-baenie h5, h3, p{
+  padding-bottom: 15px;
+}
+.side-baenie > del{
+  font-weight: normal;
+}
+.to-card{
+  background-color: rgb(231, 77, 77);
+  border: 1px solid rgb(231, 77, 77);
+  width: 160px;
+  border-radius: 3px;
+  padding: 13px;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  text-align: center;
+}
+.to-card:hover{
+  border: 1px solid rgb(231, 77, 77);
+  background-color: white;
+  color: rgb(231, 77, 77);
+  font-weight: bold;
+  font-size: 13px;
+  padding: 13px;
+}
+.card-side{
+  border-top: 1px solid silver;
+  border-bottom: 1px solid silver;
+  width: 40%;
+  padding: 30px;
+  display: inline-flex;
+  position: relative;
+  left: 150px;
+}
+.select{
+  background-color: #eee;
+  padding: 10px;
+  width: 70px;
+  margin-right: 10px;
+  text-align: center;
+  color: rgb(109, 108, 108);
+}
+.follow-text{
+  margin-top: 20px;
+  position: absolute;
+  margin-left: 52.5%;
+  color: rgb(109, 108, 108);
+}
+.follow-text a{
+  text-decoration: none;
+  color: rgb(231, 77, 77);
+}
+/*================== shopping-list ============ */
+.items-list{
+  background-color: rgb(247, 247, 247);
+ padding: 7em;
+}
+.table{
+  margin-top: 7%;
+}
+.items-list h5{
+  margin-top: 5%;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid rgb(109, 108, 108);
+}
